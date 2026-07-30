@@ -13,8 +13,12 @@ length_of_string = input("Enter a string:")
 if (len(length_of_string)<5):
 	print("Short string")
 
-if (len(length_of_string)>=5 and len(length_of_string) <=10):
+if (5<=len(length_of_string)<=10):
 	print("Medium string")
+"""if (5<=len(length_of_string)>=5 and len(length_of_string) <=10):
+	print("Medium string")"""
+
+
 
 
 if (len(length_of_string)>=10):
